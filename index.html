@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!--Swiper-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--Remix Icon-->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Main CSS-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+
+    <!--Nav Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger py-lg-2 py-4">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/img/logo2.png" class="logo" alt="logo">
+                </a>
+                <button class="btn navbar-toggler px-2" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+                  >
+                  <i class="ri-menu-3-fill"></i>
+                </button>
+                <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="offcanvasExample"
+                  aria-labelledby="offcanvasExampleLabel"
+                  >
+                  <div class="offcanvas-header d-flex d-lg-none">
+                    <h5 class="offcanvas-title text-white fs-6 px-3" id="offcanvasExampleLabel">Fuat Genc | <span>UI Designer</span></h5>
+                    <a href="javascript:void(0) "
+                      class="text-reset p-0"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="close"
+                      >
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="#FFFFFF"
+                        class="bi bi-x-circle"
+                        viewBox="0 0 16 16"
+                        >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="offcanvas-body p-lg-0 d-lg-flex align-items-lg-center">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-auto">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link px-3 px-lg-2 active d-flex align-items-center"
+                          aria-current="page"
+                          href="index.html"
+                        ><span class="ms-lg-1">Ana Sayfa</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link px-3 px-lg-2 d-flex align-items-center"
+                          aria-current="page"
+                          href="hakkimda.html"
+                        ><span class="ms-lg-1">Hakkımda</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link px-3 px-lg-2 d-flex align-items-center"
+                          aria-current="page"
+                          href="/iletisim.html"
+                        ><span class="ms-lg-1">İletişim</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+    </nav>
+    <!--Nav End-->
+
+    <!--Featured Posts Slider Start-->
+    <section class="featured-posts">
+      <div class="container">
+        <div class="row mt-5 gy-3">
+          <div class="col-md-8 left">
+            <div class="wrap card-bg h-100 p-0">
+              <div class="swiper mySwiper h-100">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="post">
+                      <div class="featured-img position-relative h-100" style="background-image: url(assets/img/image\ 2.png);">
+                        <div class="detail position-absolute bottom-0 p-3">
+                          <a href="blog-detay.html">
+                            <h2 class="featured-post-title fs-5">
+                              Cyberpunk 2077 resmen küllerinden doğdu!
+
+                            </h2>
+                          </a>
+                          <div class="meta d-flex align-items-center mt-3">
+                            <span class="post-date-info d-flex align-items-center fs-8">
+                              <span class="primary"><i class="ri-calendar-line"></i></span>
+                              <small class=" ms-1">21 Ağustos 2022</small>
+                            </span>
+                            <div class="comment ms-2">
+                              <a href="#" class="d-flex align-items-center fs-8">
+                                <span class="primary"><i class="ri-message-3-line"></i></span>
+                                  <small class=" ms-1">Yorum Yok</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="post">
+                      <div class="featured-img position-relative h-100" style="background-image: url(assets/img/image\ 2.png);">
+                        <div class="detail position-absolute bottom-0 p-3">
+                          <a href="blog-detay.html">
+                            <h2 class="featured-post-title fs-5">
+                              How to build Colorful & Energetic Illustrations using Adobe Illustrator
+                            </h2>
+                          </a>
+                          <div class="meta d-flex align-items-center mt-3">
+                            <span class="post-date-info d-flex align-items-center fs-8">
+                              <span class="primary"><i class="ri-calendar-line"></i></span>
+                              <small class=" ms-1">21 Ağustos 2022</small>
+                            </span>
+                            <div class="comment ms-2">
+                              <a href="#" class="d-flex align-items-center fs-8">
+                                <span class="primary"><i class="ri-message-3-line"></i></span>
+                                  <small class=" ms-1">Yorum Yok</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="post">
+                      <div class="featured-img position-relative h-100" style="background-image: url(assets/img/image\ 2.png);">
+                        <div class="detail position-absolute bottom-0 p-3">
+                          <a href="blog-detay.html">
+                            <h2 class="featured-post-title fs-5">
+                              How to build Colorful & Energetic Illustrations using Adobe Illustrator
+                            </h2>
+                          </a>
+                          <div class="meta d-flex align-items-center mt-3">
+                            <span class="post-date-info d-flex align-items-center fs-8">
+                              <span class="primary"><i class="ri-calendar-line"></i></span>
+                              <small class=" ms-1">21 Ağustos 2022</small>
+                            </span>
+                            <div class="comment ms-2">
+                              <a href="#" class="d-flex align-items-center fs-8">
+                                <span class="primary"><i class="ri-message-3-line"></i></span>
+                                  <small class=" ms-1">Yorum Yok</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="post">
+                      <div class="featured-img position-relative h-100" style="background-image: url(assets/img/image\ 2.png);">
+                        <div class="detail position-absolute bottom-0 p-3">
+                          <a href="blog-detay.html">
+                            <h2 class="featured-post-title fs-5">
+                              How to build Colorful & Energetic Illustrations using Adobe Illustrator
+                            </h2>
+                          </a>
+                          <div class="meta d-flex align-items-center mt-3">
+                            <span class="post-date-info d-flex align-items-center fs-8">
+                              <span class="primary"><i class="ri-calendar-line"></i></span>
+                              <small class=" ms-1">21 Ağustos 2022</small>
+                            </span>
+                            <div class="comment ms-2">
+                              <a href="#" class="d-flex align-items-center fs-8">
+                                <span class="primary"><i class="ri-message-3-line"></i></span>
+                                  <small class=" ms-1">Yorum Yok</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 right">
+            <div class="post card-bg p-0">
+              <div class="featured-img bg-cover position-relative" style="background-image: url(assets/img/image\ 20.png);">
+                <div class="detail position-absolute bottom-0 p-3">
+                  <a href="blog-detay.html">
+                    <h2 class="featured-post-title fs-6">
+                      How to build Colorful & Energetic Illustrations using Adobe Illustrator
+                    </h2>
+                  </a>
+                  <div class="meta d-flex align-items-center mt-3">
+                    <span class="post-date-info d-flex align-items-center">
+                      <i class="ri-calendar-line"></i>
+                      <small class="fs-7 ms-1">21 Ağustos 2022</small>
+                    </span>
+                    <div class="comment ms-2">
+                      <a href="#" class="d-flex align-items-center">
+                        <i class="ri-message-3-line"></i>
+                          <small class="fs-7 ms-1">Yorum Yok</small>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post card-bg p-0">
+              <div class="featured-img bg-cover position-relative" style="background-image: url(assets/img/blog.jpg);">
+                <div class="detail position-absolute bottom-0 p-3">
+                  <a href="blog-detay.html">
+                    <h2 class="featured-post-title fs-6">
+                      How to build Colorful & Energetic Illustrations using Adobe Illustrator
+                    </h2>
+                  </a>
+                  <div class="meta d-flex align-items-center mt-3">
+                    <span class="post-date-info d-flex align-items-center">
+                      <i class="ri-calendar-line"></i>
+                      <small class="fs-7 ms-1">21 Ağustos 2022</small>
+                    </span>
+                    <div class="comment ms-2">
+                      <a href="#" class="d-flex align-items-center">
+                        <i class="ri-message-3-line"></i>
+                          <small class="fs-7 ms-1">Yorum Yok</small>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Featured Posts Slider End-->
+
+    <!--Blog Posts Start-->
+    <section class="blog-posts py-5">
+      <div class="container">
+        <div class="row gy-4">
+          <!--Blog Posts-->
+          <div class="col-lg-8">
+            <div class="row gy-4">
+              <!-- Blog Post Start-->
+              <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <article class="blog-card card-bg d-flex flex-column justify-content-between gap-1">
+                  <figure>
+                    <a href="blog-detay.html">
+                      <img src="assets/img/image 20.png" alt="blog image" class="blog-img">
+                    </a>
+                  </figure>
+                  <p class="subtitle date">
+                    10 Eylül 2022
+                  </p>
+                  <a href="blog-detay.html">
+                  <h2 class="post-title">
+                    iPhone 14'ün Türkiye’deki Tamir Ücretleri Açıklandı
+                  </h2>
+                  </a>
+                  <p class="excerpt">
+                    Apple, iPhone 14 ailesi için tamir ücretlerini açıkladı. Şirketin Türkiye'deki fiyatları oldukça yüksekken, ABD ile Türkiye fiyatları arasında devasa farklar var...
+
+                  </p>
+                  <a href="#" class="read-more">Devamını Oku <span class="align-middle"><i class="ri-arrow-right-line"></i></span></a>
+                </article>
+              </div>
+              <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <article class="blog-card card-bg d-flex flex-column justify-content-between gap-1">
+                  <figure>
+                    <a href="blog-detay.html">
+                      <img src="assets/img/image 20.png" alt="blog image" class="blog-img">
+                    </a>
+                  </figure>
+                  <p class="subtitle date">
+                    10 Eylül 2022
+                  </p>
+                  <a href="blog-detay.html">
+                  <h2 class="post-title">
+                    Türkiye'de 1 Milyon 970 bin TL’ye Satışa Sunulan Hyundai IONIQ 5'in Öne Çıkan Özellikleri
+                  </h2>
+                  </a>
+                  <p class="excerpt">
+                    Elektrikli IONIQ 5’in tanıtım toplantısı İstanbul’da gerçekleştirildi. Tamamen elektrikli IONIQ 5 modeli, Türkiye’de sadece Progressive donanım paketi ile 1 milyon 970 bin liraya satışa çıktı.
+
+                  </p>
+                  <a href="#" class="read-more">Devamını Oku <span class="align-middle"><i class="ri-arrow-right-line"></i></span></a>
+                </article>
+              </div>
+              <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <article class="blog-card card-bg d-flex flex-column justify-content-between gap-1">
+                  <figure>
+                    <a href="blog-detay.html">
+                      <img src="assets/img/image 20.png" alt="blog image" class="blog-img">
+                    </a>
+                  </figure>
+                  <p class="subtitle date">
+                    10 Eylül 2022
+                  </p>
+                  <a href="blog-detay.html">
+                  <h2 class="post-title">
+                    Honda'dan Elektrikli Otomobil Hayali Kuranların Hevesini Kursağında Bırakacak Açıklama
+                  </h2>
+                  </a>
+                  <p class="excerpt">
+                    Honda ABD İş ve Satış Başkan Yardımcısı Dave Gardner, elektrikli otomobillerin fiyatları hakkında hayalleri yıkan bir açıklamada bulundu. Gardner, mevcut batarya teknolojisiyle elektrikli otomobillerin fiyatlarının ucuzlaşmayacağını dile getirdi.
+
+                  </p>
+                  <a href="#" class="read-more">Devamını Oku <span class="align-middle"><i class="ri-arrow-right-line"></i></span></a>
+                </article>
+              </div>
+              <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <article class="blog-card card-bg d-flex flex-column justify-content-between gap-1">
+                  <figure>
+                    <a href="blog-detay.html">
+                      <img src="assets/img/image 20.png" alt="blog image" class="blog-img">
+                    </a>
+                  </figure>
+                  <p class="subtitle date">
+                    10 Eylül 2022
+                  </p>
+                  <a href="blog-detay.html">
+                  <h2 class="post-title">
+                    Çocukken Kamera Sandığımız Bu Cihazlar Aslında Ne İşe Yarıyor?
+                    </h2>
+                  </a>
+                  <p class="excerpt">
+                    Çocukken ilk kez gördüğümüzde karşısına geçip poz vermek istediğimiz bu alet, aslında araziyle ilgili ölçümler yapılmasında mühendisler ya da sörveyörler tarafından kullanılıyor.
+
+                  </p>
+                  <a href="#" class="read-more">Devamını Oku <span class="align-middle"><i class="ri-arrow-right-line"></i></span></a>
+                </article>
+              </div>
+              <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <article class="blog-card card-bg d-flex flex-column justify-content-between gap-1">
+                  <figure>
+                    <a href="blog-detay.html">
+                      <img src="assets/img/image 20.png" alt="blog image" class="blog-img">
+                    </a>
+                  </figure>
+                  <p class="subtitle date">
+                    10 Eylül 2022
+                  </p>
+                  <a href="blog-detay.html">
+                  <h2 class="post-title">
+                    GTA 6'dan Sızdırılan Videolar Tamamen Doğru Çıktı! Rockstar, Videolara Karşı Telif Savaşı Açtı
+                  </h2>
+                  </a>
+                  <p class="excerpt">
+                    Twitter'da bir kullanıcı, GTA 6'ya ait olduğunu iddia ettiği oyun içi görüntüleri paylaştı. Görüntüler, oyunun Vice City'de geçeceğini ve kadın bir karakteri yöneteceğimizi doğrular nitelikteydi.
+
+                  </p>
+                  <a href="#" class="read-more">Devamını Oku <span class="align-middle"><i class="ri-arrow-right-line"></i></span></a>
+                </article>
+              </div>
+              <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+                <article class="blog-card card-bg d-flex flex-column justify-content-between gap-1">
+                  <figure>
+                    <a href="blog-detay.html">
+                      <img src="assets/img/image 20.png" alt="blog image" class="blog-img">
+                    </a>
+                  </figure>
+                  <p class="subtitle date">
+                    10 Eylül 2022
+                  </p>
+                  <a href="blog-detay.html">
+                  <h2 class="post-title">
+                    Uzayın Derinliklerinden Gelen Bu Gizemli Taşa Dikkatli Bakın: Elmasın Yerini Alabilir!
+                  </h2>
+                  </a>
+                  <p class="excerpt">
+                    Bilim insanları, bildiğimiz elmastan daha sert ve dayanıklı bir yapı keşfetti. Bu yapının kaynağı ise gezegenimize düşen başıboş bir meteor.
+
+                  </p>
+                  <a href="#" class="read-more">Devamını Oku <span class="align-middle"><i class="ri-arrow-right-line"></i></span></a>
+                </article>
+              </div>
+              <!-- Blog Post Start-->
+            </div>
+          </div>
+          <!--Blog Posts-->
+
+          <!--Sidebar Start-->
+          <div class="col-lg-4">
+            <div class="row gy-4">
+
+              <!--Author-->
+              <div class="col-lg-12 col-md-6">
+                <aside class="author card-bg text-center">
+                  <figure>
+                    <img src="assets/img/author.png" alt="" class="author-img">
+                  </figure>
+                  <h6 class="mt-3">Fuat Genc</h6>
+                  <p class="my-3">
+                    ABD'den bir Kişisel Blogger'ım. Herkesten farklı düşünmeye çalışıyorum. Yeni bir şey yaratmak. Sanırım... Asıl amacım dünyaya bazı hediyeler vermek. Bu yüzden blogpost hesapları yazıyorum.
+                  </p>
+                  <ul class="socials list-unstyled d-flex align-items-center justify-content-center">
+                    <li>
+                      <a href="#">
+                        <img src="assets/img/Facebook.png" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/img/Twitter.png" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/img/Instagram.png" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </aside>
+              </div>
+              <!--Author-->
+
+              <!--Trend Posts-->
+              <div class="col-lg-12 col-md-6">
+                <aside class="trend-post-sidebar card-bg">
+                  <h6 class="head">Trend Yazılar</h6>
+                <ul class="trend-posts">
+                    <li class="trend-post">
+                      <a href="blog-detay.html">
+                        <h6 class="trend-post-title">
+                          GTA 6'dan Sızdırılan Videolar Tamamen Doğru Çıktı!
+
+                        </h6>
+                      </a>
+                    </li>
+                    <li class="trend-post">
+                      <a href="blog-detay.html">
+                        <h6 class="trend-post-title">
+                          Türkiye'de 1 Milyon 970 bin TL’ye Satışa Sunulan Hyundai IONIQ 5'in Öne Çıkan Özellikleri
+                        </h6>
+                      </a>
+                    </li>
+                    <li class="trend-post">
+                      <a href="blog-detay.html">
+                        <h6 class="trend-post-title">
+                          iPhone 14'ün Türkiye’deki Tamir Ücretleri Açıklandı
+                        </h6>
+                      </a>
+                    </li>
+                    <li class="trend-post">
+                      <a href="blog-detay.html">
+                        <h6 class="trend-post-title">
+                          Honda'dan Elektrikli Otomobil Hayali Kuranların Hevesini Kursağında Bırakacak Açıklama
+                        </h6>
+                      </a>
+                    </li>
+                </ul>
+                </aside>
+              </div>
+              <!--Trend Posts-->
+
+              <!--Subscribe-->
+              <div class="col-lg-12 col-md-6">
+                <aside class="card-bg text-center subscribe">
+                  <form action="">
+                    <img src="assets/img/Subscribe.png" class="subscribe-img" alt="">
+                    <div class="content">
+                      <h6 class="subscribe-head">Abone Ol</h6>
+                      <p class="mt-3">
+                        Son yazılarımdan ilk haberdar olmak istiyorsan bültene abone olabilirsin.
+                      </p>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email adresiniz">
+                    <button type="submit" class="custom-button mt-3">Abone Ol</button>
+                  </form>
+                </aside>
+              </div>
+              <!--Subscribe-->
+
+            </div>
+          </div>
+          <!--Sidebar End-->
+        </div>
+      </div>
+      <div class="blur2">
+
+      </div>
+    </section>
+    <!--Blog Posts End-->
+
+    <!--Footer Start-->
+    <footer class="footer card-bg">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-lg-6">
+            <p class="fs-6">
+              © 2022 RawBlog - by RawShed.
+            </p>
+          </div>
+          <div class="col-lg-auto">
+            <ul class="footer-menu list-unstyled d-flex">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Ana Sayfa
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Hakkımda
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Gizlilik Politikası
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  İletişim
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+
+    <!--Swiper-->
+    <script src="assets/js/swiper-bundle.js"></script>
+    <!--Bootstrap-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--Main JS-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
